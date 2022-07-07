@@ -18,3 +18,5 @@ Copy the contents of ```vallhalla.zip``` into your ports folder on your device. 
 1. If your game is not launching, re-verify your game files on steam and repatch the ```data.win```. Copy that patched file again into your assets folder after you rename it to ```game.unx```. 
 
 2. Renaming the Linux versions ```game.unx``` file to ```data.win``` then patching it does not work. If you have the linux version, re-download the windows version. The runner is all that is needed from linux and is provided.
+
+3. There is a bug with the jukebox music selection and the controller port. Sometime when a track is selected and added to the playlist or selected from the playlist, the cursor will be trapped unable to navigate back to track selection (No way to exit out without adding all the tracks). Only use "A" to add music and "Y" to remove. I have gotten this a couple times in a row but also been able to navigate the menu without issue on occasion. Just remember to save when you can!
